@@ -36,4 +36,10 @@ body {
   color: var(--mainWhite);
 }
 
+.phone-icon {
+  border: 0.1rem solid var(--mainGreen);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
 /* !End of Navbar */
