@@ -65,11 +65,16 @@ body {
   background: url('../img/bannerBcg.jpeg');
   background-position: center;
   background-size:cover;
-  background-repeat:no-repeat ;
+  background-repeat:no-repeat;
+  /* background-attachment: fixed; */
+  position: relative;
 }
 
 .banner-img__footer {
   background: var(--mainDark);
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* !End of banner */
