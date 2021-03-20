@@ -75,6 +75,10 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* !End of banner */
