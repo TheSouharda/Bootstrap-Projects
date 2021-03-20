@@ -43,3 +43,13 @@ body {
 }
 
 /* !End of Navbar */
+/* !banner */
+.banner-info__footer {
+  background: var(--mainGreen);
+}
+
+.banner-img__footer {
+  background: var(--mainDark);
+}
+
+/* !End of banner */
