@@ -36,10 +36,34 @@ body {
   color: var(--mainWhite);
 }
 
+.blockquote{
+  border-left:0.6rem solid var(--mainGreen) ;
+  padding-right: 1.5rem;
+}
+
 .phone-icon {
   border: 0.1rem solid var(--mainGreen);
   border-radius: 50%;
   padding: 0.5rem;
+}
+.title-underline{
+  width: 12rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2rem;
+}
+
+.title-underline-center{
+  position: absolute;
+  background-color: var(--mainGreen);
+  width: 50%;
+  height: 0.6rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 1rem;
+
 }
 
 /* !End of Navbar */
@@ -82,5 +106,31 @@ body {
 }
 
 /* !End of banner */
+
+/* ! about image  */
+.img-container{
+  position: relative;
+}
+
+.featured-icons{
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.featured-icons-left{
+  background: var(--mainDark);
+  padding: 0.5rem;
+  display: inline-block;
+  color:var(--mainWhite)
+}
+.featured-icons-right{
+  background: var(--mainGreen);
+  padding: 0.5rem;
+  display: inline-block;
+  color:var(--mainWhite)
+}
+
 
 
