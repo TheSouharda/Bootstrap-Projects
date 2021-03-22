@@ -132,5 +132,9 @@ body {
   color:var(--mainWhite)
 }
 
+.featured{
+  background: var(--mainGrey);
+}
+
 
 
